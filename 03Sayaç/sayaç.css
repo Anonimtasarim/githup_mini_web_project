@@ -1,0 +1,85 @@
+body {
+    background-color: #669999;
+    color: #e0ebeb;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin: 30px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.sayaçEkran {
+    background-color: #a3c2c2;
+    color: #2c3e50;
+    font-family: 'Courier New', monospace;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 0 auto 40px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.sayaçBtn {
+    display: inline-block;
+}
+
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    margin: 0 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+    height: 40px; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+#başlat {
+    background-color: #2ecc71;
+    color: white;
+}
+
+#durdur {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#artır {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+}
+
+#azalt {
+    background-color: #f39c12;
+    color: white;
+    text-align: center;
+}
+
+button i {
+    font-size: 16px;
+    text-align: center;
+}
